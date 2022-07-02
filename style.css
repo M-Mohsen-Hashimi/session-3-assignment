@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+}
+
+li {
+  float: left;
+  cursor: pointer;
+  color: beige;
+  text-align: center;
+  padding: 14px 16px;
+}
+li:hover {
+    background: #333;
+    color: white;
+    border-radius: 5px;
+}
+div {
+  width: 100%;
+}
+
+div#about-div, div#contact-div {
+    display: none;
+}
+
+h3 {
+    margin-bottom: 0;
+    padding: 0 20px;
+
+}
+p {
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+}
